@@ -8,7 +8,7 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: #333333">  
+    <a-scene background="color: #333333">
       <a-assets>
           <img id="wood" src="images/wood.jpg" />
           <img id="wood2" src="images/wood2.jpg" />
@@ -23,11 +23,11 @@
         material="src: #wood"
         shadow 
         animation="property: rotation; 
-                   to: 280 360 90; 
+                   to: 90 280 360; 
                    dur: 3000; 
                    easing: linear; 
                    loop: true"
-        animation2="property: position;
+        animation__2="property: position;
                    to: 1 8 -10; 
                    dur: 2000; 
                    easing: linear; 
@@ -44,7 +44,7 @@
       </a-box>
       <a-plane id="ground"
         position="0 0 -4" 
-        rotation="-8180 0 0" 
+        rotation="-90 0 0" 
         width="100" 
         height="100" 
         color="#7BC8A4" 
