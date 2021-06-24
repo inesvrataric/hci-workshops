@@ -23,7 +23,13 @@
         material="src: #wood"
         shadow 
         animation="property: rotation; 
-                   to: 80 180 360; 
+                   to: 90 180 360; 
+                   dur: 2000; 
+                   easing: linear; 
+                   loop: true" >
+        
+        animation2="property: position; 
+                   to: 2 -6 10; 
                    dur: 2000; 
                    easing: linear; 
                    loop: true" >
@@ -36,11 +42,6 @@
         depth="1" 
         material="src: #wood2"
         shadow> 
-        animation="property: rotation; 
-                   to: 90 180 360; 
-                   dur: 2000; 
-                   easing: linear; 
-                   loop: true" >
       </a-box>
       <a-plane id="ground"
         position="0 0 -4" 
